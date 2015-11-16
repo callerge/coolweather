@@ -1,9 +1,13 @@
 package com.example.coolweather.model;
 
 public class County {
+
 	private int id;
+
 	private String countyName;
+
 	private String countyCode;
+
 	private int cityId;
 
 	public int getId() {
@@ -37,5 +41,5 @@ public class County {
 	public void setCityId(int cityId) {
 		this.cityId = cityId;
 	}
-
+	
 }
